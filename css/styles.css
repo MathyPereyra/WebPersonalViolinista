@@ -1,0 +1,180 @@
+/*Parallax*/
+
+
+.plx{
+  background: url(../img/headerparallax.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wtitle{
+  padding: 250px 0px;
+}
+
+.wtitle h2{
+  font-size: 36px;
+  font-weight: bold;
+}
+
+h2{
+    font-family: 'Source Serif Pro', serif;
+    font-size: 40px;
+}
+
+.navBg{
+    transition: 750ms ease;
+    background-color: transparent;
+}
+
+.navBg.scrolled{
+    background-color: #10caca;
+    }
+
+.navTitle{
+    font-family: 'Libre Baskerville', serif;
+    color: white !important;
+}
+
+.imgHeader{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.zoom{
+    position: relative;
+    overflow: hidden;
+    max-height: 18rem;
+}
+
+.zoom:hover img{
+    transform: scale(1.1);
+}
+
+.zoom img{
+    transition: all 0.3s;
+}
+
+.btn-primary{
+    border-radius: 30px;
+}
+
+.experience{
+    margin-top: 40px;
+    background-color: #2eb8b8;
+    border-radius: 8px;
+}
+
+hr{
+    color: white;
+}
+.divTextExperience{
+    border: 1px solid grey;
+    border-radius: 4px;    
+}
+
+.textAdjustments{
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Source Serif Pro', serif;
+    color:white;
+}
+
+.separadorExperience{
+    margin-top: 40px;
+    background-color: #2eb8b8;
+}
+
+.textAdjustmentsP{
+    margin: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.colorHr{
+    background-color:  #248f8f;
+}
+
+.pedagogyText{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  .showcase .showcase-text {
+    padding: 3rem;
+    color: white;
+    background-color: #394046;
+  }
+
+  .bg-grisfondo{
+    background-color: #394046;
+  }
+
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+
+
+footer{
+    background-color: #29a3a3;
+    color: white;
+}
+
+.copyRightFooter{
+    background-color:  #2eb8b8;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .botonModal{
+    background-color:  #2eb8b8;
+    color: white;
+  }
+
+/*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#196666; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    width: 60px;
+    height: 60px;
+    border-radius: 50px; /* Rounded corners */
+    font-size: 20px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(85, 85, 85); /* Add a dark-grey background on hover */
+  }
